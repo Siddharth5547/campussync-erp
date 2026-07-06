@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Stats from "../components/Stats";
 import Features from "../components/Features";
+import Testimonials from "../components/Testimonials";
 
 function LandingPage() {
   return (
@@ -10,6 +11,7 @@ function LandingPage() {
       <Hero />
       <Stats />
       <Features />
+      <Testimonials />
     </div>
   );
 }
