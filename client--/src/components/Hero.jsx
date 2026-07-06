@@ -6,7 +6,12 @@ import {
 
 function Hero() {
   return (
-    <section className="max-w-7xl mx-auto px-6 pt-40">
+    <section className="relative max-w-7xl mx-auto px-6 pt-40 pb-24 overflow-hidden">
+         {/* {Blue Glow} */}
+        <div className="absolute -top-20 -left-20 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl"></div>
+
+          {/* {Purple Glow } */}
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl"></div> 
 
       <div className="flex items-center justify-between gap-16">
 
