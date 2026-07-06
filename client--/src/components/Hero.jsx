@@ -46,7 +46,7 @@ function Hero() {
         {/* Right Side */}
         <div className="w-1/2 flex justify-center">
 
-          <div className="bg-slate-900 border border-slate-700 rounded-3xl p-8 w-[420px] shadow-2xl">
+          <div className="bg-slate-900/60 backdrop-blur-xl border border-white/10 rounded-3xl p-8 shadow-2xl">
 
             <h2 className="text-2xl font-bold mb-6">
               Student Dashboard
