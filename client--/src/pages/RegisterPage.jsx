@@ -71,6 +71,15 @@ function RegisterPage() {
           >
             Create Account
           </button>
+                    <p className="text-center text-gray-400 mt-6">
+            Already have an account?{" "}
+            <Link
+                to="/login"
+                className="text-blue-400 hover:text-blue-300"
+            >
+                Login
+            </Link>
+            </p>
 
         </form>
 
